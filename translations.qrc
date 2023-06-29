@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cldemo_ru_RU.qm</file>
+        <file>cldemo_ru_RU.ts</file>
+    </qresource>
+</RCC>

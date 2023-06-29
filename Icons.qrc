@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/menu">
+        <file alias="Clustering">ico/iClustering.png</file>
+        <file alias="Exit">ico/iExit.png</file>
+        <file alias="Link">ico/iLink.png</file>
+        <file alias="Open">ico/iOpen.png</file>
+        <file alias="Save">ico/iSave.png</file>
+        <file alias="Clear">ico/iClear.png</file>
+        <file alias="Dend">ico/iDendogram.png</file>
+        <file alias="Fill">ico/iFill.png</file>
+        <file alias="Help">ico/iHelp.png</file>
+        <file alias="Matrix">ico/iMatrix.png</file>
+        <file alias="Pause">ico/iPause.png</file>
+        <file alias="Settings">ico/iSettings.png</file>
+        <file alias="Start">ico/iStart.png</file>
+        <file alias="Info">ico/iInfo.png</file>
+        <file alias="New">ico/iNew.png</file>
+        <file alias="Measure">ico/iMeasure.png</file>
+        <file alias="Method">ico/iMethod.png</file>
+        <file alias="Magic">ico/iMagic.png</file>
+    </qresource>
+</RCC>

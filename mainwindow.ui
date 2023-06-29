@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>516</width>
+    <height>381</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Clustering Demo</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="MainLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionNew"/>
+   <addaction name="actionOpen"/>
+   <addaction name="actionSave"/>
+   <addaction name="separator"/>
+   <addaction name="actionMethod"/>
+   <addaction name="actionMeasure"/>
+   <addaction name="actionClustering"/>
+   <addaction name="actionClear"/>
+   <addaction name="actionRoundFill"/>
+   <addaction name="separator"/>
+   <addaction name="actionViewDendrogram"/>
+   <addaction name="actionLine"/>
+   <addaction name="actionNet"/>
+   <addaction name="separator"/>
+   <addaction name="actionAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionClustering">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Start</normaloff>:/menu/Start</iconset>
+   </property>
+   <property name="text">
+    <string>Clustering</string>
+   </property>
+   <property name="toolTip">
+    <string>Clustering</string>
+   </property>
+  </action>
+  <action name="actionViewMatrix">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Matrix</normaloff>:/menu/Matrix</iconset>
+   </property>
+   <property name="text">
+    <string>Matrix</string>
+   </property>
+   <property name="toolTip">
+    <string>Matrix</string>
+   </property>
+  </action>
+  <action name="actionViewDendrogram">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Dend</normaloff>:/menu/Dend</iconset>
+   </property>
+   <property name="text">
+    <string>Dendrogram</string>
+   </property>
+   <property name="toolTip">
+    <string>Dendrogram</string>
+   </property>
+  </action>
+  <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Open</normaloff>:/menu/Open</iconset>
+   </property>
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="toolTip">
+    <string>Open</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Save</normaloff>:/menu/Save</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+   <property name="toolTip">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Help</normaloff>:/menu/Help</iconset>
+   </property>
+   <property name="text">
+    <string>Help</string>
+   </property>
+   <property name="toolTip">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionClear">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Clear</normaloff>:/menu/Clear</iconset>
+   </property>
+   <property name="text">
+    <string>Clear</string>
+   </property>
+   <property name="toolTip">
+    <string>Clear</string>
+   </property>
+  </action>
+  <action name="actionMethod">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Method</normaloff>:/menu/Method</iconset>
+   </property>
+   <property name="text">
+    <string>Select method</string>
+   </property>
+   <property name="toolTip">
+    <string>Select method</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Info</normaloff>:/menu/Info</iconset>
+   </property>
+   <property name="text">
+    <string>About</string>
+   </property>
+   <property name="toolTip">
+    <string>About</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::AboutRole</enum>
+   </property>
+  </action>
+  <action name="actionNew">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/New</normaloff>:/menu/New</iconset>
+   </property>
+   <property name="text">
+    <string>New</string>
+   </property>
+   <property name="toolTip">
+    <string>New</string>
+   </property>
+  </action>
+  <action name="actionMeasure">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Measure</normaloff>:/menu/Measure</iconset>
+   </property>
+   <property name="text">
+    <string>Select measure</string>
+   </property>
+   <property name="toolTip">
+    <string>Select measure</string>
+   </property>
+  </action>
+  <action name="actionRoundFill">
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Magic</normaloff>:/menu/Magic</iconset>
+   </property>
+   <property name="text">
+    <string>Random fill</string>
+   </property>
+   <property name="toolTip">
+    <string>Random fill</string>
+   </property>
+  </action>
+  <action name="actionLine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Link</normaloff>:/menu/Link</iconset>
+   </property>
+   <property name="text">
+    <string>Line</string>
+   </property>
+   <property name="toolTip">
+    <string>Line</string>
+   </property>
+  </action>
+  <action name="actionNet">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="Icons.qrc">
+     <normaloff>:/menu/Matrix</normaloff>:/menu/Matrix</iconset>
+   </property>
+   <property name="text">
+    <string>Net</string>
+   </property>
+   <property name="toolTip">
+    <string>Net</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
