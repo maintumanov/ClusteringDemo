@@ -6,7 +6,8 @@
 Данный проект позволяет визуально продемонстрировать поведение различных методов кластерного анализа.
 
 <p align="center">
-  <img src="/images/wled_logo_akemi.png">
+  <img src="Screen/ScreenMain.PNG">
+  <img src="Screen/ScreenDend.PNG">
 
 
  </p>
