@@ -5,6 +5,8 @@
 
 Данный проект позволяет визуально продемонстрировать поведение различных методов кластерного анализа.
 
+- Дистрибутив [Windows32](Distributive/SetupClusteringDemo 1.1.exe)
+
 <p align="center">
   <img src="Screen/ScreenMain.PNG">
   <img src="Screen/ScreenDend.PNG">
